@@ -152,11 +152,6 @@ It also serves as a practical demonstration of my ability to design and develop 
 
 I am passionate about software development, problem-solving, learning new technologies, and building practical applications that solve real-world problems.
 
-## 📜 License
-
-This project is created for personal portfolio and educational purposes.
-
-You are welcome to explore the project and learn from the implementation, but please do not claim the original work as your own.
 
 ---
 
