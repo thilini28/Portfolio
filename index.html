@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070a13">
+  <meta name="description" content="Portfolio of Thilini Kavindya Jayaneththi — ICT Undergraduate and aspiring software developer. Explore projects, skills, education and certifications.">
+  <title>Thilini Kavindya | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-orb orb-c"></div>
+  <div class="grid-lines"></div>
+
+  <div class="scroll-progress"><span id="scrollProgress"></span></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="#home" aria-label="Thilini home"><span aria-hidden="true"><i data-lucide="circle-user-round"></i></span><b>Thilini</b></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggleBtn" aria-label="Toggle theme"><i data-lucide="moon"></i></button>
+        <a href="CV.pdf" download="Thilini_Kavindya_CV.pdf" class="nav-cv"><i data-lucide="download"></i><span>CV</span></a>
+        <button class="icon-btn mobile-toggle" id="mobileToggle" aria-label="Open menu"><i data-lucide="menu"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal reveal-left">
+          <div class="status-pill"><span class="status-dot"></span><span>Open to opportunities</span><span class="status-arrow">✦</span></div>
+          <p class="eyebrow"><span>01</span> PERSONAL PORTFOLIO</p>
+          <h1><span class="gradient-text">Thilini Kavindya</span><br><span class="hero-role">ICT Undergraduate &amp; Aspiring Software Developer</span></h1>
+          <p class="hero-lead">Hi, I'm <strong>Thilini Kavindya</strong> — an ICT undergraduate at the University of Vavuniya, passionate about software development, database applications and smart IoT solutions.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#projects"><span>Explore my work</span><i data-lucide="arrow-up-right"></i></a>
+            <a class="btn btn-ghost magnetic" href="CV.pdf" download="Thilini_Kavindya_CV.pdf"><i data-lucide="file-down"></i><span>Download CV</span></a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/thilini28" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.28c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg></a>
+            <a href="https://linkedin.com/in/thilini-kavindya-b3b827322" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.95v5.66H9.34V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.48v6.27ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.54 20.45H7.1V8.99H3.54v11.46ZM22.23 0H1.77C.79 0 .01.78.01 1.75v20.5C.01 23.22.79 24 1.77 24h20.46c.98 0 1.77-.78 1.77-1.75V1.75C24 .78 23.21 0 22.23 0Z"/></svg></a>
+            <a href="mailto:thilinikavindya678@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+            <span class="social-line"></span><small>Scroll to explore <i data-lucide="arrow-down"></i></small>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-right">
+          <div class="visual-halo"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-shell" data-tilt data-tilt-max="7" data-tilt-speed="500" data-tilt-perspective="1200">
+            <div class="profile-topline"><span>AVAILABLE</span><span>01 / 06</span></div>
+            <div class="profile-frame"><img src="images/profile.jpg" alt="Thilini Kavindya profile photo"></div>
+            <div class="profile-caption"><div><span>Thilini Kavindya</span><small>ICT Undergraduate · Developer</small></div><span class="verified"><i data-lucide="sparkles"></i></span></div>
+          </div>
+          <div class="floating-tech tech-java"><i data-lucide="coffee"></i><span>Java</span></div>
+          <div class="floating-tech tech-cs"><i data-lucide="braces"></i><span>C#</span></div>
+          <div class="floating-tech tech-db"><i data-lucide="database"></i><span>SQL</span></div>
+          <div class="floating-tech tech-iot"><i data-lucide="cpu"></i><span>IoT</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll-mark"><span></span></div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <article class="stat-card reveal"><div class="stat-icon"><i data-lucide="layers-3"></i></div><strong data-count="6">6+</strong><span>Software & IoT Projects</span></article>
+        <article class="stat-card reveal"><div class="stat-icon"><i data-lucide="graduation-cap"></i></div><strong>BSc</strong><span>ICT Undergraduate</span></article>
+        <article class="stat-card reveal"><div class="stat-icon"><i data-lucide="award"></i></div><strong data-count="3">3+</strong><span>Professional Certifications</span></article>
+        <article class="stat-card reveal"><div class="stat-icon"><i data-lucide="sparkles"></i></div><strong>∞</strong><span>Curiosity to Keep Learning</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-number">02</span><div><span class="section-kicker">GET TO KNOW ME</span><h2>About <span>Me.</span></h2></div><p>A dedicated student, creator and continuous learner building practical solutions with purpose.</p></div>
+        <div class="about-layout">
+          <article class="about-story glass-card reveal reveal-left" data-tilt data-tilt-max="4">
+            <div class="card-label"><i data-lucide="user-round"></i> WHO I AM</div>
+            <h3>I turn ideas into <span>useful experiences.</span></h3>
+            <p>I am an ICT undergraduate at the University of Vavuniya with a passion for building functional, database-driven applications and smart IoT solutions.</p>
+            <p>Along with my technical degree, I hold a Higher National Diploma in English Language & Literature from Aquinas College and an IT Diploma from IMBS Green Campus, giving me strong communication skills alongside technical expertise.</p>
+            <div class="club-chip"><i data-lucide="globe-2"></i><div><b>Mozilla Campus Club</b><small>Design Team Member · University of Vavuniya</small></div><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <div class="strengths-grid">
+            <article class="strength-item glass-card reveal"><span class="mini-icon"><i data-lucide="brain-circuit"></i></span><div><h4>Problem Solving</h4><p>Analytical thinking to break down complex tasks and build structured solutions.</p></div></article>
+            <article class="strength-item glass-card reveal"><span class="mini-icon"><i data-lucide="users-round"></i></span><div><h4>Team Collaboration</h4><p>Effective teamwork refined through Mozilla Campus Club and group projects.</p></div></article>
+            <article class="strength-item glass-card reveal"><span class="mini-icon"><i data-lucide="zap"></i></span><div><h4>Quick Learner</h4><p>Adaptable to new frameworks, programming paradigms and modern tech stacks.</p></div></article>
+            <article class="strength-item glass-card reveal"><span class="mini-icon"><i data-lucide="messages-square"></i></span><div><h4>Communication</h4><p>Strong communication skills supported by formal English Language & Literature studies.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-number">03</span><div><span class="section-kicker">TECHNICAL EXPERTISE</span><h2>My <span>Skills.</span></h2></div><p>A growing toolkit across programming, databases, web development, IoT and design.</p></div>
+        <div class="skill-showcase">
+          <article class="skill-category glass-card reveal reveal-left"><div class="category-top"><span class="mini-icon"><i data-lucide="code-2"></i></span><div><span>01</span><h3>Programming</h3></div></div><div class="skill-pills"><span><i data-lucide="coffee"></i>Java</span><span><i data-lucide="braces"></i>C#</span><span><i data-lucide="code"></i>Python</span><span><i data-lucide="terminal"></i>C</span><span><i data-lucide="cpu"></i>C++</span></div></article>
+          <article class="skill-category glass-card reveal"><div class="category-top"><span class="mini-icon"><i data-lucide="layers-2"></i></span><div><span>02</span><h3>Frameworks & Web</h3></div></div><div class="skill-pills"><span><i data-lucide="square-stack"></i>.NET WinForms</span><span><i data-lucide="database-zap"></i>ADO.NET</span><span><i data-lucide="code-xml"></i>HTML5</span><span><i data-lucide="palette"></i>CSS3</span><span><i data-lucide="braces"></i>JavaScript</span></div></article>
+          <article class="skill-category glass-card reveal reveal-right"><div class="category-top"><span class="mini-icon"><i data-lucide="database"></i></span><div><span>03</span><h3>Data & Tools</h3></div></div><div class="skill-pills"><span><i data-lucide="database"></i>SQL Server</span><span><i data-lucide="database"></i>MySQL</span><span><i data-lucide="git-branch"></i>Git</span><span><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.28c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg>GitHub</span><span><i data-lucide="figma"></i>Figma</span><span><i data-lucide="radio-tower"></i>IoT</span></div></article>
+        </div>
+        <div class="skills-marquee" aria-hidden="true"><div><span>JAVA</span><b>✦</b><span>C#</span><b>✦</b><span>SQL</span><b>✦</b><span>PYTHON</span><b>✦</b><span>IoT</span><b>✦</b><span>FIGMA</span><b>✦</b><span>GITHUB</span><b>✦</b><span>JAVA</span><b>✦</b><span>C#</span><b>✦</b><span>SQL</span><b>✦</b><span>PYTHON</span></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-number">04</span><div><span class="section-kicker">SELECTED WORK</span><h2>Featured <span>Projects.</span></h2></div><p>Academic and personal software projects — presented as an interactive, auto-moving showcase.</p></div>
+
+        <article class="featured-project glass-card reveal" data-repo="https://github.com/thilini28/Smart-Dust-Bin-Project" tabindex="0" role="link" aria-label="Open Smart Dustbin GitHub repository">
+          <div class="featured-image"><img src="images/smart_dustbin.png" alt="Smart Dustbin IoT project"><div class="image-overlay"></div><span class="featured-label"><i data-lucide="sparkles"></i> FEATURED PROJECT</span><div class="image-tech"><span>IoT</span><span>Arduino / ESP32</span><span>Sensors</span></div></div>
+          <div class="featured-copy"><span class="project-index">01 / FEATURED</span><h3>Smart Dustbin <span>— Waste Management System</span></h3><p>An automated real-time waste monitoring solution that senses garbage fill levels, prevents overflowing, and sends alerts for timely collection. Built to enhance campus cleanliness and smart city infrastructure.</p><div class="featured-points"><span><i data-lucide="check"></i>Fill-level monitoring</span><span><i data-lucide="check"></i>Smart alerts</span><span><i data-lucide="check"></i>IoT automation</span></div><div class="featured-actions"><a class="btn btn-primary" href="https://github.com/thilini28/Smart-Dust-Bin-Project" target="_blank" rel="noopener noreferrer"><span>View Repository</span><i data-lucide="arrow-up-right"></i></a><a class="btn btn-ghost" href="https://github.com/thilini28/Smart-Dust-Bin-Project" target="_blank" rel="noopener noreferrer"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.28c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg><span>GitHub</span></a></div></div>
+        </article>
+
+        <div class="projects-toolbar reveal"><div><span class="section-kicker">MORE PROJECTS</span><h3>Keep exploring <span>→</span></h3></div><div class="carousel-controls"><button id="projectPrev" aria-label="Previous projects"><i data-lucide="arrow-left"></i></button><button id="projectNext" aria-label="Next projects"><i data-lucide="arrow-right"></i></button></div></div>
+        <div class="project-viewport reveal" id="projectViewport">
+          <div class="project-track" id="projectTrack">
+            <article class="project-card" data-project="railway" data-repo="https://github.com/thilini28/Online-Railway-System" tabindex="0" role="link" aria-label="Open railway project GitHub repository"><div class="project-image"><img src="images/railway_system.png" alt="Online Railway System"><span>WEB · DATABASE</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>02 / 06</small><h3>Online Railway System</h3><p>Train schedules, seat selection, ticket booking and passenger record management.</p><div class="tag-row"><span>C#</span><span>SQL</span><span>Web</span></div><a href="https://github.com/thilini28/Online-Railway-System" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+            <article class="project-card" data-project="campus" data-repo="https://github.com/thilini28/Event-Management-System" tabindex="0" role="link" aria-label="Open campus project GitHub repository"><div class="project-image"><img src="images/campus_event.png" alt="Campus Event Management System"><span>DESKTOP APP</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>03 / 06</small><h3>Campus Event Management</h3><p>University event planning with venue allocation, registration and participant management.</p><div class="tag-row"><span>C#</span><span>.NET</span><span>SQL Server</span></div><a href="https://github.com/thilini28/Event-Management-System" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+            <article class="project-card" data-project="booking" data-repo="https://github.com/thilini28" tabindex="0" role="link" aria-label="Open booking project GitHub repository"><div class="project-image"><img src="images/seat_booking.png" alt="Java Seat Booking System"><span>JAVA · OOP</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>04 / 06</small><h3>Seat Availability & Booking</h3><p>Interactive seat mapping, dynamic reservation tracking and ticket confirmation.</p><div class="tag-row"><span>Java</span><span>OOP</span><span>Swing</span></div><a href="https://github.com/thilini28" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+            <article class="project-card" data-project="library" data-repo="https://github.com/thilini28/Sarasavi-Library-System-" tabindex="0" role="link" aria-label="Open library project GitHub repository"><div class="project-image"><img src="images/library_system.png" alt="Library Management System"><span>DATABASE APP</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>05 / 06</small><h3>Library Management System</h3><p>Book cataloguing, issue/return tracking, members and automated fine management.</p><div class="tag-row"><span>Java / C#</span><span>SQL</span><span>DB</span></div><a href="https://github.com/thilini28/Sarasavi-Library-System-" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+            <article class="project-card" data-project="calculator" data-repo="https://github.com/thilini28/Calculator" tabindex="0" role="link" aria-label="Open calculator project GitHub repository"><div class="project-image"><img src="images/calculator.png" alt="Calculator Application"><span>UTILITY APP</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>06 / 06</small><h3>Calculator Application</h3><p>Clean arithmetic interface with robust input validation and responsive keypad design.</p><div class="tag-row"><span>GUI</span><span>Math</span><span>Validation</span></div><a href="https://github.com/thilini28/Calculator" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+            <article class="project-card" data-project="dustbin" data-repo="https://github.com/thilini28/Smart-Dust-Bin-Project" tabindex="0" role="link" aria-label="Open dustbin project GitHub repository"><div class="project-image"><img src="images/smart_dustbin.png" alt="Smart Dustbin project"><span>IoT PROJECT</span><div class="image-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></div></div><div class="project-body"><small>01 / 06</small><h3>Smart Dustbin</h3><p>Sensor-powered waste monitoring designed for timely collection and cleaner spaces.</p><div class="tag-row"><span>IoT</span><span>ESP32</span><span>C++</span></div><a href="https://github.com/thilini28/Smart-Dust-Bin-Project" target="_blank" rel="noopener noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+          </div>
+        </div>
+        <div class="carousel-hint reveal"><span class="drag-icon"><i data-lucide="move-horizontal"></i></span><span>Auto moving · hover to pause · drag on touch</span><div class="carousel-dots" id="carouselDots"></div></div>
+      </div>
+    </section>
+
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-number">05</span><div><span class="section-kicker">LEARNING JOURNEY</span><h2>Education &amp; <span>Certifications.</span></h2></div><p>Education and certifications shaping both my technical foundation and creative thinking.</p></div>
+        <div class="edu-grid">
+          <div class="timeline-wrap reveal reveal-left"><div class="timeline-line"></div>
+            <article class="timeline-item"><span class="timeline-node"><i data-lucide="graduation-cap"></i></span><div class="timeline-card glass-card"><small>UNDERGRADUATE STUDIES</small><h3>BSc (Hons) in Information & Communication Technology</h3><p>University of Vavuniya</p></div></article>
+            <article class="timeline-item"><span class="timeline-node"><i data-lucide="book-open"></i></span><div class="timeline-card glass-card"><small>HND QUALIFICATION</small><h3>Higher National Diploma in English Language & Literature</h3><p>Aquinas College of Higher Studies</p></div></article>
+            <article class="timeline-item"><span class="timeline-node"><i data-lucide="monitor"></i></span><div class="timeline-card glass-card"><small>DIPLOMA</small><h3>IT Diploma</h3><p>IMBS Green Campus</p></div></article>
+          </div>
+          <div class="certs-wrap reveal reveal-right"><div class="cert-title-row"><span class="mini-icon"><i data-lucide="award"></i></span><div><span class="section-kicker">CERTIFICATIONS</span><h3>Learning beyond the classroom.</h3></div></div>
+            <article class="cert-card glass-card" data-cert-img="images/certificate/Python_Programming_E-Certificate_page-0001.jpg" data-cert-title="Python Programming Certificate" tabindex="0" role="button" aria-label="View Python Programming Certificate">
+              <span class="cert-icon"><i data-lucide="code-2"></i></span>
+              <div class="cert-info">
+                <h4>Python Programming</h4>
+                <p>Centre for Open & Distance Learning (CODL), University of Moratuwa — Dept of CSE</p>
+                <button class="cert-view-btn" type="button"><i data-lucide="eye"></i><span>View Certificate</span></button>
+              </div>
+              <span class="cert-arrow"><i data-lucide="eye"></i></span>
+            </article>
+
+            <article class="cert-card glass-card" data-cert-img="images/certificate/Agile Project Management_page-0001.jpg" data-cert-title="Agile Project Management Certificate" tabindex="0" role="button" aria-label="View Agile Project Management Certificate">
+              <span class="cert-icon"><i data-lucide="kanban-square"></i></span>
+              <div class="cert-info">
+                <h4>Agile Project Management</h4>
+                <p>HP LIFE, HP Foundation</p>
+                <small>Completed Feb 2026</small>
+                <button class="cert-view-btn" type="button"><i data-lucide="eye"></i><span>View Certificate</span></button>
+              </div>
+              <span class="cert-arrow"><i data-lucide="eye"></i></span>
+            </article>
+
+            <article class="cert-card glass-card" data-cert-img="images/certificate/UIUX for Designers_page-0001.jpg" data-cert-title="UI/UX for Beginners Certificate" tabindex="0" role="button" aria-label="View UI/UX for Beginners Certificate">
+              <span class="cert-icon"><i data-lucide="layout-template"></i></span>
+              <div class="cert-info">
+                <h4>UI/UX for Beginners</h4>
+                <p>UI/UX Fundamentals Qualification</p>
+                <small>Completed Apr 2026</small>
+                <button class="cert-view-btn" type="button"><i data-lucide="eye"></i><span>View Certificate</span></button>
+              </div>
+              <span class="cert-arrow"><i data-lucide="eye"></i></span>
+            </article>
+
+            <article class="cert-card glass-card" data-cert-img="images/certificate/Generatic AI_page-0001.jpg" data-cert-title="Generative AI Certificate" tabindex="0" role="button" aria-label="View Generative AI Certificate">
+              <span class="cert-icon"><i data-lucide="sparkles"></i></span>
+              <div class="cert-info">
+                <h4>Generative AI</h4>
+                <p>Artificial Intelligence & Prompt Engineering Fundamentals</p>
+                <button class="cert-view-btn" type="button"><i data-lucide="eye"></i><span>View Certificate</span></button>
+              </div>
+              <span class="cert-arrow"><i data-lucide="eye"></i></span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy"><span class="section-number">06</span><span class="section-kicker">GET IN TOUCH</span><h2>Get <span>In Touch.</span></h2><p>Open for software engineering opportunities, collaboration and interesting projects.</p><div class="contact-links"><a href="mailto:thilinikavindya678@gmail.com"><i data-lucide="mail"></i><span>thilinikavindya678@gmail.com</span></a><a href="https://github.com/thilini28" target="_blank" rel="noopener noreferrer"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.28c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg><span>github.com/thilini28</span></a><a href="https://linkedin.com/in/thilini-kavindya-b3b827322" target="_blank" rel="noopener noreferrer"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.95v5.66H9.34V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.48v6.27ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.54 20.45H7.1V8.99H3.54v11.46ZM22.23 0H1.77C.79 0 .01.78.01 1.75v20.5C.01 23.22.79 24 1.77 24h20.46c.98 0 1.77-.78 1.77-1.75V1.75C24 .78 23.21 0 22.23 0Z"/></svg><span>linkedin.com/in/thilini-kavindya-b3b827322</span></a></div></div>
+          <div class="contact-visual"><div class="contact-orb"></div><div class="contact-icon"><i data-lucide="send"></i></div><div class="contact-note"><span>Have an idea?</span><b>Let's talk.</b></div><form class="contact-form" id="contactForm"><label for="contactName">Name</label><input id="contactName" name="name" type="text" placeholder="Your name" required><label for="contactEmail">Email</label><input id="contactEmail" name="email" type="email" placeholder="your@email.com" required><label for="contactMessage">Message</label><textarea id="contactMessage" name="message" rows="4" placeholder="Write your message..." required></textarea><button class="btn btn-primary magnetic" type="submit"><span>Send Message</span><i data-lucide="send"></i></button></form></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><div class="footer-brand"><a class="logo" href="#home" aria-label="Thilini home"><span aria-hidden="true"><i data-lucide="circle-user-round"></i></span><b>Thilini</b><em>.</em></a><p>Designed & built with curiosity, code and creativity.</p></div><div class="footer-right"><div class="footer-socials"><a href="https://github.com/thilini28" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.28c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg></a><a href="https://linkedin.com/in/thilini-kavindya-b3b827322" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.95v5.66H9.34V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.48v6.27ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.54 20.45H7.1V8.99H3.54v11.46ZM22.23 0H1.77C.79 0 .01.78.01 1.75v20.5C.01 23.22.79 24 1.77 24h20.46c.98 0 1.77-.78 1.77-1.75V1.75C24 .78 23.21 0 22.23 0Z"/></svg></a><a href="mailto:thilinikavindya678@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a></div><span>© 2026 Thilini Kavindya Jayaneththi</span></div></div></footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-content"><button class="modal-close" id="modalClose" aria-label="Close"><i data-lucide="x"></i></button><span class="section-kicker">PROJECT DETAILS</span><h2 id="modalTitle"></h2><div id="modalBody"></div></div></div>
+
+  <div class="modal-overlay" id="certModal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+    <div class="modal-content cert-modal-content">
+      <button class="modal-close" id="certModalClose" aria-label="Close certificate modal"><i data-lucide="x"></i></button>
+      <span class="section-kicker">CERTIFICATE PREVIEW</span>
+      <h2 id="certModalTitle">Certificate</h2>
+      <div class="cert-modal-body">
+        <div class="cert-image-frame">
+          <img id="certModalImg" src="" alt="Certificate Preview">
+        </div>
+        <div class="cert-modal-actions">
+          <a id="certModalDownload" href="#" download class="btn btn-primary"><i data-lucide="download"></i><span>Download Certificate</span></a>
+          <a id="certModalOpen" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"><i data-lucide="external-link"></i><span>Open Full Image</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
